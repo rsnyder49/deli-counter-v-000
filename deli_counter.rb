@@ -25,6 +25,8 @@ def line(array)
 end 
 
 def take_a_number(array, name)
+  array.pop(name)
+  line(array)
 end 
 
 def now_serving(array) 
