@@ -25,7 +25,7 @@ def line(array)
 end 
 
 def take_a_number(array, name)
-  array.pop(name)
+  array.push(name)
   line(array)
 end 
 
