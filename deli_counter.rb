@@ -15,7 +15,7 @@ def line(array)
       person += 1
       count += 1 
     end 
-    return string
+    puts string
   end
 end 
 
