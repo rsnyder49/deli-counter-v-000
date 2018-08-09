@@ -18,6 +18,7 @@ def line(array)
         string += count.to_s + ". " + array[person] + " "
         person += 1
         count += 1 
+      end
       end 
     puts string
   end
