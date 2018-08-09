@@ -26,7 +26,7 @@ end
 
 def take_a_number(array, name)
   new_line = array.push(name)
-  line(new_line)
+  puts line(new_line)
 end 
 
 def now_serving(array) 
