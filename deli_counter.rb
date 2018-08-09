@@ -11,7 +11,7 @@ def line(array)
     string = "The line is currently: "
     while person < array.length 
       #message = "The line is currently: #{count}. #{array[person]}"
-      string += count.to_s + array[person]
+      string += count.to_s + ". " + array[person]
       person += 1
       count += 1 
     end 
