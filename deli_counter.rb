@@ -9,6 +9,7 @@ def line(array)
     count = 1
     while count < array.length 
       puts "The line is currently #{count}. #{name}"
+      count += 1
   end
 end 
 
