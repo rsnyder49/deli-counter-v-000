@@ -12,8 +12,8 @@ def line(array)
     while person < array.length 
       if array[person] == array[-1]
         string += count.to_s + ". " + array[person]
-         person += 1
-          count += 1 
+        person += 1
+        count += 1 
       else 
         string += count.to_s + ". " + array[person] + " "
         person += 1
