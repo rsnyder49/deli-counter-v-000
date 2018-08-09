@@ -8,8 +8,10 @@ def line(array)
   else 
     count = 1
     person = 0
+    string = "The line is currently: "
     while person < array.length 
-      puts "The line is currently: #{count}. #{array[person]}"
+      #message = "The line is currently: #{count}. #{array[person]}"
+      string += #{count}"." #{array[person]
       person += 1
       count += 1 
     end 
