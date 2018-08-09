@@ -9,8 +9,9 @@ def line(array)
     count = 1
     person = 0
     while person < array.length 
-      puts "The line is currently #{count}. #{array[person]}"
-      count += 1
+      puts "The line is currently: #{count}. #{array[person]}"
+      person += 1
+      count += 1 
     end 
   end
 end 
